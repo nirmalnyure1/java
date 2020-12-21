@@ -1,0 +1,41 @@
+package polymorphism;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Dog d= new Dog();
+		Pet p=d;
+		Animal a=d;
+		
+		d.Walk();
+		p.Walk();
+		//run time polymorphism 
+		//variable cant be override
+		
+		System.out.println(p.name);
+		System.out.println(d.name);
+		
+		Greetings();
+		Greetings("hello buddy");
+		Greetings("hello",4);
+		
+	}
+	public static void Greetings() {
+		System.out.println("hi, There");
+	}
+	//compile time polymorphism
+	//@methodoverloading
+	
+	public static void Greetings(String s) {
+		System.out.println(s);
+		}
+	public static void Greetings(String s, int count) {
+		for(int i=0;i<count;i++) {
+			System.out.println(s);
+		}
+	}
+
+}

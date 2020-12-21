@@ -1,0 +1,11 @@
+package interfaceInJava;
+
+public class Person extends Student {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		public void study() ;
+	}
+
+}

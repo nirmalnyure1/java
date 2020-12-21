@@ -1,0 +1,8 @@
+package interfaceInJava;
+
+public class YouTuber {
+
+	public void video() {
+		System.out.println("YouTuber is making videos");
+	}
+}

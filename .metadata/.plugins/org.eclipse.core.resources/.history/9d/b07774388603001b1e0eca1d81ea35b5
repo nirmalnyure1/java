@@ -1,0 +1,24 @@
+package interfaceInJava;
+
+public class Person implements Student,YouTuber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	
+	@Override
+	public void video() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void study() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

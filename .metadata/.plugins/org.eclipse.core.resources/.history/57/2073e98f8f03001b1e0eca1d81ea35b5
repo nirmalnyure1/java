@@ -1,0 +1,7 @@
+package interfaceInJava;
+
+public interface YouTuber extends VideoEditor {
+
+	public abstract void video();
+	void editVideo();
+	}

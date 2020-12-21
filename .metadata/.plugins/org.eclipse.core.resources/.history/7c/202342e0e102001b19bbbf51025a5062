@@ -1,0 +1,13 @@
+package finalKeyword;
+
+public class Student {
+	final int rollNo;
+	final String name;
+	{rollNo=1;
+	}
+
+	public Student(){
+		this.name = "nirmal";
+		
+	}
+}

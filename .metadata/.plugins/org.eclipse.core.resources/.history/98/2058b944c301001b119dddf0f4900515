@@ -1,0 +1,5 @@
+package singletons;
+
+public class AppConfig {
+
+}

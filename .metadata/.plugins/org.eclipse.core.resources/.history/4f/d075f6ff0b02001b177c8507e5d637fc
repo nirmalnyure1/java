@@ -1,0 +1,20 @@
+package polymorphism;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Dog d= new Dog();
+		Pet p=d;
+		Animal a=d;
+		
+		d.Walk();
+		p.Walk();
+		//compiletime checking  a.walk();
+		//run time polymorphism
+		
+	}
+
+}

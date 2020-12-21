@@ -1,0 +1,8 @@
+package polymorphism;
+
+public class Pet extends Animal {
+
+	public void Walk() {
+		System.out.println("pet is walking ");
+	}
+}

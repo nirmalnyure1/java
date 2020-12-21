@@ -1,0 +1,30 @@
+package polymorphism;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Dog d= new Dog();
+		Pet p=d;
+		Animal a=d;
+		
+		d.Walk();
+		p.Walk();
+		//run time polymorphism
+		
+		Greetings();
+		Greetings("hello");
+		}
+	public static void Greetings() {
+		System.out.println("hi, There");
+	}
+	//compile time polymorphism
+	//@methodoverloading
+	public static void Greetings(String s) {
+		System.out.println(s);
+		
+	}
+
+}

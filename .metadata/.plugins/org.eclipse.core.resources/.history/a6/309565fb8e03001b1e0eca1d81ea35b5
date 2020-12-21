@@ -1,0 +1,6 @@
+package interfaceInJava;
+
+public interface YouTuber {
+
+	public abstract void video();
+}
